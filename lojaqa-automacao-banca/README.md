@@ -3,6 +3,9 @@
 **Checkout: validação de CPF (Módulo 11) & auto-preenchimento por CEP (ViaCEP)**
 Playwright + TypeScript · Prof. Alison Melo · FAP 2026
 
+Alunos: Pedro Henrique Sales de Lima
+        Caio César dos Santos Alves
+        
 - Tela testada: [`checkout.html`](https://alisonmelo.github.io/tioalison-pe-t4-fap26/projetos-base/01-sistema-login/checkout.html)
 - API: `https://api-qa-fap2026.onrender.com/api` (endpoint do checkout: `POST /orders`)
 - Serviço externo do módulo: `GET https://viacep.com.br/ws/:cep/json/`
