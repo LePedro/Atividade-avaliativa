@@ -3,7 +3,7 @@
 **Checkout: validação de CPF (Módulo 11) & auto-preenchimento por CEP (ViaCEP)**
 Playwright + TypeScript · Prof. Alison Melo · FAP 2026
 
-Alunos: Pedro Henrique Sales de Lima
+Alunos: Pedro Henrique Sales de Lima /
         Caio César dos Santos Alves
         
 - Tela testada: [`checkout.html`](https://alisonmelo.github.io/tioalison-pe-t4-fap26/projetos-base/01-sistema-login/checkout.html)
