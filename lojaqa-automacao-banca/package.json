@@ -1,0 +1,23 @@
+{
+  "name": "lojaqa-automacao-banca",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automação E2E e API - Módulo 05: Checkout, CPF e ViaCEP",
+  "scripts": {
+    "test": "playwright test",
+    "test:e2e": "playwright test tests/e2e",
+    "test:e2e:headed": "playwright test tests/e2e --headed",
+    "test:modulo05": "playwright test tests/e2e/lojaqa-modulo-05.spec.ts --headed",
+    "test:modulo05:api": "playwright test tests/api/lojaqa-api-05.spec.ts",
+    "test:api": "playwright test tests/api",
+    "test:externo": "playwright test tests/e2e/externo-e2e.spec.ts tests/api/externo-api.spec.ts",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "typescript": "^5.9.3",
+    "dotenv": "^16.6.1"
+  }
+}
